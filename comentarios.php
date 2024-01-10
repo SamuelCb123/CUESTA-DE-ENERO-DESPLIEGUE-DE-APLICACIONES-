@@ -9,6 +9,17 @@
     <script src="JS/bootstrap.bundle.js"></script>
 </head>
 <body>
+<header>
+        <nav>
+            <img src="logo.PNG" width="100px">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="comentarios.php"> Opiniones</a></li>
+            </ul>
+        </nav>
+        </header>
+
+
     <form method="POST" action="enviarcomentario.php">
         <section id="contact">
             <div class="container px-4">
@@ -50,5 +61,8 @@
             </div>
         </section>
     </form>
+    <footer>
+    <p>&copy; 2024 Samuel</p>
+</footer>
 </body>
 </html>

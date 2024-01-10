@@ -25,7 +25,13 @@ a {
     color: red;
 }
 
-/* Responsive styles */
+footer {
+    background-color:#6B4343;
+    padding: 20px 0;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
 @media screen and (max-width: 768px) {
     nav {
         flex-direction: column;
