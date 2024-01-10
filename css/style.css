@@ -1,12 +1,9 @@
-
-
 * {
     margin: 0;
-    padding: 0;
+ 
 }
 
-
-nav{
+nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -14,21 +11,51 @@ nav{
     padding-left: 5%;
     padding-right: 5%;
     background-color: #6B4343;
-
 }
-h1{
-    color: rgb(220, 219, 219);
-    font-size: 44px;
-   
 
-}
-ul li{
+
+ul li {
     display: inline-block;
     padding: 0px 20px;
- 
 }
-a{
+
+a {
     font-size: 23px;
     text-decoration: none;
-    color: rgb(220, 219, 219);
+    color: red;
 }
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    ul {
+        margin-top: 20px;
+    }
+
+    ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+}
+.info{
+    background-color: whitesmoke
+}
+.info2 h2{
+padding: 10px;
+margin: 0;
+}
+.info2 p{
+padding: 3px;
+margin: 10px;
+
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(1);
+}
+

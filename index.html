@@ -5,12 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kyoto(京都)</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+  <script src="JS/bootstrap.bundle.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
 </head>
 <body>
     
         <header>
         <nav>
-            <h1>京都</h1>
+            <img src="logo.PNG" width="100px">
             <ul>
                 <li><a href="#">Inicio</a></li>
                 <li><a href="#">Platos</a></li>
@@ -19,9 +22,58 @@
         </nav>
         </header>
     <main>
+        <section class="info">
+        <div class="row">
+            
+            <div class="col-md-6">
+                <article class="info2">
+                <h2>¿Quienes Somoa?</h2>
+                <p>Bienvenido a nuestro restaurante japonés, donde la autenticidad se encuentra con la excelencia culinaria. En el corazón de nuestra cocina se encuentra la pasión por ofrecer experiencias gastronómicas únicas que capturan la esencia de la tradición japonesa.</p>
+                <p>Nuestros chefs, hábiles artesanos culinarios, se esfuerzan por utilizar ingredientes frescos y auténticos, fusionando técnicas tradicionales con toques modernos. Cada plato es una obra maestra cuidadosamente elaborada para deleitar tu paladar y transportarte a Japón.</p>
+                <p>En nuestro espacio acogedor, celebramos la rica herencia de la gastronomía japonesa y te invitamos a ser parte de esta experiencia culinaria única. Ya sea que seas un amante de sushi, ramen o teppanyaki, aquí encontrarás la auténtica delicia japonesa.</p>
+                </article>
+            </div>
 
-    </main>
+          
+            <div class="col-md-6">
+                <h2>Ubicación</h2>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3170.1560270533228!2d-5.944589723600301!3d37.38614223445087!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd126f1f75ce2a21%3A0x5a50c7439982bc92!2sRestaurante%20Japon%C3%A9s%20Osaka!5e0!3m2!1ses!2ses!4v1704911347291!5m2!1ses!2ses" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
+            </div>
+         
+        </div>
+    </div>
+</section>
+
+<div class="container text-center"> <!-- Contenedor centrado -->
+    <h1>Platos más populares</h1>
+    <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="okonomiyaki.jpg" class="d-block img-fluid" alt="..." width="600px" height="200px">
+            </div>
+            <div class="carousel-item">
+                <img src="toriniku.jpg" class="d-block img-fluid" alt="..." width="600px" height="200px">
+            </div>
+            <div class="carousel-item">
+                <img src="ebichiri.jpg" class="d-block img-fluid" alt="..."  width="600px" height="200px">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden"></span>
+        </button>
+    </div>
+</div>
     
 </body>
 </html>
