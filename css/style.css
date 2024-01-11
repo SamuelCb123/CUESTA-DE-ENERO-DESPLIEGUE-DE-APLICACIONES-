@@ -46,15 +46,7 @@ footer {
         display: block;
         margin-bottom: 10px;
     }
-    .card-img-top{
-        width: 90%;
-      }
-
-      .simbologia{
-        display: flex;
-        text-align: center;
-        margin: 15px;
-      }
+  
 }
 .info{
     background-color: whitesmoke
