@@ -11,7 +11,7 @@
 <body>
 <header>
     <nav>
-        <img src="logo.PNG" width="100px">
+        <img src="iMG/logo.PNG" width="100px">
         <ul>
             <li><a href="index.html">Inicio</a></li>
             <li><a href="comentarios.php"> Opiniones</a></li>
