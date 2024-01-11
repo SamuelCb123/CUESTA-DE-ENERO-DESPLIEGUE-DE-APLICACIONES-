@@ -60,6 +60,9 @@
         </div>
     </section>
 </form>
-
+<footer>
+    <p>&copy; 2024 Tu Nombre</p>
+</footer>
 </body>
 </html>
+ 
